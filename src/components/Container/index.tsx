@@ -1,6 +1,6 @@
 type ContainerProps = { children: React.ReactNode }
 
-import styles from './Container.module.css'
+import styles from './styles.module.css' 
 
 export function Container({ children }: ContainerProps) {
     return (
